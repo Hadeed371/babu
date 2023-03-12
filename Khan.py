@@ -34,7 +34,7 @@ except ImportError:
     os.system('pip install future')
     os.system('clear')
 try:
-    import 
+    import request:
 except ImportError:
     print('\n [âœ“] installing requests !...\n')
     os.system('pip install requests')
