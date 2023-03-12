@@ -11,10 +11,10 @@ from bs4 import BeautifulSoup
 from datetime import date
 from datetime import datetime
 from urllib.parse import quote
-import requests,bs4,sys,os,random,time,re,json,uuid,subprocess
+import bs4,sys,os,random,time,re,json,uuid,subprocess
 from random import randint
-import requests, re, os, time
-import requests, os, re, bs4,platform, sys, json, time, random, datetime, subprocess, threading, itertools,base64,uuid,zlib
+import re, os, time
+import os, re, bs4,platform, sys, json, time, random, datetime, subprocess, threading, itertools,base64,uuid,zlib
 from concurrent.futures import ThreadPoolExecutor as Psycho
 from concurrent.futures import ThreadPoolExecutor as Psycho
 from datetime import datetime
@@ -34,7 +34,7 @@ except ImportError:
     os.system('pip install future')
     os.system('clear')
 try:
-    import requests
+    import 
 except ImportError:
     print('\n [âœ“] installing requests !...\n')
     os.system('pip install requests')
