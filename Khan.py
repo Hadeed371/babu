@@ -4,7 +4,7 @@
 #--------------------------------------------#
 #coding=utf-8
 #!/usr/bin/python3
-import ,bs4,sys,os,random,time,re,json,uuid,subprocess,platform,base64
+import bs4,sys,os,random,time,re,json,uuid,subprocess,platform,base64
 from random import randint
 from concurrent.futures import ThreadPoolExecutor
 from bs4 import BeautifulSoup
